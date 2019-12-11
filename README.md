@@ -1,0 +1,2 @@
+# Fobizm.
+Zincirlerinizden kurtulun
