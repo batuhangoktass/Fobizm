@@ -25,6 +25,11 @@
   src: url('../fonts/raleway/Raleway-Bold.ttf'); 
 }
 
+@font-face {
+  font-family: DHF-Story;
+  src: url('../fonts/DHF Story Brush/DHF Story Brush.ttf');
+}
+
 /*//////////////////////////////////////////////////////////////////
 [ RESTYLE TAG ]*/
 
