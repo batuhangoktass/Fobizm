@@ -1,3 +1,5 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="tr">
 
@@ -31,8 +33,8 @@
       <div class="mx-auto text-center">
         <h1 class="mx-auto my-0">&nbsp;Fobizm.</h1>
 		<h2 class="text-white-50 mx-auto mt-2 mb-5">Hayatınızdaki zincirlerinizden kurtulun.</h2>
-		<a href="girişyap.html" class="btn btn-dark js-scroll-trigger">Giriş Yap</a>
-		<a href="kayıtol.html" class="btn btn-dark js-scroll-trigger">Kayıt Ol</a> 	
+		<a href="girisyap.php" class="btn btn-dark js-scroll-trigger">Giriş Yap</a>
+		<a href="kayıtol.php" class="btn btn-dark js-scroll-trigger">Kayıt Ol</a> 	
       </div>
 	  <div class="container">
 		 <div class="col-lg-8 mx-auto">
@@ -52,11 +54,12 @@
 		   <a href="#" class="mx-5"></a>    
            <a href="#" class="mx-3"><i class="fab fa-twitter"></i></a>
            <a href="#" class="mx-3"><i class="fab fa-facebook-f"></i></a>
-           <a href="#" class="mx-3"><i class="fab fa-github"></i></a></p>
-        </div>
+           <a href="#" class="mx-3"><i class="fab fa-github"></i></a>
+	  </p>
     </div>
   </footer>
   <!-- Footer Bitiş-->
+	
   <!-- JavaScript Bağlantıları -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
