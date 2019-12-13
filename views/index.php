@@ -36,16 +36,21 @@
 		<a href="girisyap.php" class="btn btn-dark js-scroll-trigger">Giriş Yap</a>
 		<a href="kayıtol.php" class="btn btn-dark js-scroll-trigger">Kayıt Ol</a> 	
       </div>
-	  <div class="container">
-		 <div class="col-lg-8 mx-auto">
-          	<h2 class="text-white mx-auto ">Misyonumuz</h2>
-          	<p class="text-white-50">İçinde bulunmuş olduğunuz bu web sayfası, hayatınızda bazı eylemleri uygulamakta sizlere engel olan duvarları kırmayı amaçlamıştır. </p>
-		 </div>
-	  </div>
     </div>	  
   </section>
   <!-- Gövde Bitiş-->
-     
+  <!-- Misyonumuz başlangıç -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">Misyonumuz</h2>
+          <p class="text-white-50">İçinde bulunmuş olduğunuz bu web sayfası, hayatınızda bazı eylemleri uygulamakta sizlere engel olan duvarları kırmayı amaçlamıştır. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Misyonumuz Bitiş-->	
   <!-- Footer -->
   <footer class="py-3 bg-dark">
     <div class="container">
