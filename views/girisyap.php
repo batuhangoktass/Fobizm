@@ -66,7 +66,7 @@
 					<!-- form altı metinleri satır-1-->
 					<div class="flex-sb-m w-full p-b-28">
                         <!-- form altı metinleri kayıt ol -->
-                        <a class="txt3">Zaten bir hesabınız var mı ?</a> 
+                        <a class="txt3">Bir hesabınız yok mu ?</a>
                         <a href="kayıtol.php" class="link">Kayıt Ol</a>     
 					</div>
 					<!-- form giriş yap btn-->
