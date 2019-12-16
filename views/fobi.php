@@ -37,7 +37,7 @@
             <a class="btn text-light" href="travma.php">Travma</a>
           </li>
           <li class="nav-item">
-            <a class="btn text-light" href="contack.php">İletişim</a>
+            <a class="btn text-light" href="contactform.php">İletişim</a>
           </li>
         </ul>
       </div>
