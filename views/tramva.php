@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <!-- Üst Başlık --> 	
-  <title>Fobizm. -Anasayfa</title>
+  <title>Fobizm. -Tramvalar</title>
   <link rel="icon" type="image/png" href="img/icons/favicon.ico"/>
   <!-- Css Bağlantı -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,10 +34,10 @@
             <a class="btn text-light" href="travma.php">Anasayfa</a>
           </li>
           <li class="nav-item active alert-dark">
-            <a class="btn text-dark" href="fobi.php">Fobi</a>
+            <a class="btn text-light" href="fobi.php">Fobi</a>
           </li>
-          <li class="nav-item">
-            <a class="btn text-light" href="travma.php">Travma</a>
+          <li class="nav-item active alert-dark">
+            <a class="btn text-dark" href="travma.php">Travma</a>
           </li>
           <li class="nav-item">
             <a class="btn text-light" href="contactform.php">İletişim</a>
@@ -50,7 +50,7 @@
   <!-- Sayfa başlığı Başlangıç-->
   <div class="container mt-5">
 	<div class="row text-center">
-		<h2 style="font-weight: 500;">FOBİLER</h2>
+		<h2 style="font-weight: 500;">TRAMVALAR</h2>
 	</div>	
   </div>
   <!-- Sayfa başlığı Bitiş-->
@@ -122,8 +122,7 @@
 	<!-- Fobi Ekle Paneli Bitiş -->  
   </div>
   <!-- Container Bitiş -->
-
-  <!-- Footer -->
+<!-- Footer -->
   <footer class="py-3 bg-dark">
     <div class="container">
       <p class="m-0 text-center text-white">
@@ -136,6 +135,7 @@
     </div>
   </footer>
   <!-- Footer Bitiş-->
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -3,7 +3,7 @@
 <html lang="tr">
 
 <head>
-	<title>Fobizm. -Login </title>
+	<title>Fobizm. -Şifremi Unuttum? </title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -37,41 +37,17 @@
 				<!-- form başlangıç--> 
 				<form class="login100-form validate-form flex-sb flex-w">
 					<!-- form başlık-->
-					<span class="login100-form-title p-b-32 text-center">Kullanıcı Girişi</span>
+					<span class="login100-form-title p-b-32 text-center">Şifre Yenileme</span>
                     <!-- form email giriş -->
 					<span class="txt1 p-b-11">E-mail</span>
 					<div class="wrap-input100 validate-input m-b-36" data-validate = "E-postanızı Giriniz" >
 						<input class="input100" type="email" name="email" >
 						<span class="focus-input100"></span>
 					</div>
-					<!-- form parola giriş -->
-					<span class="txt1 p-b-11">Parola</span>
-					<div class="wrap-input100 validate-input m-b-12" data-validate = "Parolanızı Giriniz">
-						<span class="btn-show-pass"><i class="fa fa-eye"></i></span>
-						<input class="input100" type="password" name="pass" >
-						<span class="focus-input100"></span>
-					</div>
-					<!-- form altı metinleri satır-1-->
-					<div class="flex-sb-m w-full p-b-28">
-						<!-- form altı metinleri beni hatırla -->
-						<div class="contact100-form-checkbox">
-						   <input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
-						   <label class="label-checkbox100" for="ckb1">Beni Hatırla</label>
-						</div>
-                        <!-- form altı metinleri Şifremi unuttum -->
-						<div>
-							<a href="sifremiunuttum.php" class="link">Şifremi Unuttum ?</a>
-						</div>
-					</div>
-					<!-- form altı metinleri satır-1-->
-					<div class="flex-sb-m w-full p-b-28">
-                        <!-- form altı metinleri kayıt ol -->
-                        <a class="txt3">Bir hesabınız yok mu ?</a>
-                        <a href="kayıtol.php" class="link">Kayıt Ol</a>     
-					</div>
+					
 					<!-- form giriş yap btn-->
 					<div class="container-login100-form-btn">
-						<a href="fobi.php" class="login100-form-btn">Giriş Yap</a>
+						<a href="#" class="login100-form-btn">E-posta Doğrula</a>
 					</div>
 				</form>
 				<!-- form bitiş-->

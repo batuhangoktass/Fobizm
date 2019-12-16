@@ -24,7 +24,33 @@
 </head>
 
 <body>
-
+	<!-- ÜST MENÜ BAŞLANGIÇ -->
+  <header class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <em><h1><a class="nav-item text-white" style="font-family: DHF-Story">Fobizm.</a></h1></em>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="btn text-light" href="travma.php">Anasayfa</a>
+          </li>
+          <li class="nav-item active ">
+            <a class="btn text-light" href="fobi.php">Fobi</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn text-light" href="travma.php">Travma</a>
+          </li>
+          <li class="nav-item alert-dark">
+            <a class="btn text-dark" href="contactform.php">İletişim</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- ÜST MENÜ BİTİŞ-->
+  <!-- İletişim form Başlangıç -->
 	<div class="container-contact100"
 		 style="background-image: url('img/signup.jpg');  background-size: 100% 100%;">
 		<div class="wrap-contact100">
@@ -71,7 +97,7 @@
 			</form>
 		</div>
 	</div>
-
+<!-- İletişim form bitiş -->
 <!--J.Script bağlantıları ve eposta gönderme scriptleri-->
 
 <!--===============================================================================================-->
@@ -144,5 +170,18 @@
   gtag('config', 'UA-23581568-13');
 </script>
 
+<!-- Footer -->
+  <footer class="py-3 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">
+		   <a> Copyright &copy; EsDrago Company&nbsp;</a>
+		   <a href="#" class="mx-5"></a>    
+           <a href="https://twitter.com/fobizm1" class="mx-3"><i class="fab fa-twitter"></i></a>
+           <a href="https://www.facebook.com/fobizm/?modal=admin_todo_tour" class="mx-3"><i class="fab fa-facebook-f"></i></a>
+           <a href="https://github.com/batuhangoktass/Fobizm.git" class="mx-3"><i class="fab fa-github"></i></a>
+	  </p>
+    </div>
+  </footer>
+  <!-- Footer Bitiş-->
 </body>
 </html>
