@@ -20,7 +20,7 @@
 	<link rel="stylesheet" type="text/css" href="vendor/noui/nouislider.min.css">
 	<link rel="stylesheet" type="text/css" href="css/util_contact.css">
 	<link rel="stylesheet" type="text/css" href="css/main_contact.css">
-
+    
 </head>
 
 <body>
@@ -34,13 +34,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="btn text-light" href="travma.php">Anasayfa</a>
+            <a class="btn text-light" href="anasayfa.php">Anasayfa</a>
           </li>
           <li class="nav-item active ">
             <a class="btn text-light" href="fobi.php">Fobi</a>
           </li>
           <li class="nav-item">
-            <a class="btn text-light" href="travma.php">Travma</a>
+            <a class="btn text-light" href="tramva.php">Tramva</a>
           </li>
           <li class="nav-item alert-dark">
             <a class="btn text-dark" href="contactform.php">İletişim</a>
@@ -51,7 +51,7 @@
   </header>
   <!-- ÜST MENÜ BİTİŞ-->
   <!-- İletişim form Başlangıç -->
-	<div class="container-contact100"
+	<div class="container-contact100 mt-5"
 		 style="background-image: url('img/signup.jpg');  background-size: 100% 100%;">
 		<div class="wrap-contact100">
 			<form class="contact100-form validate-form">

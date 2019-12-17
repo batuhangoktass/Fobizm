@@ -31,13 +31,13 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="btn text-light" href="travma.php">Anasayfa</a>
+            <a class="btn text-light" href="tramva.php">Anasayfa</a>
           </li>
-          <li class="nav-item active alert-dark">
+          <li class="nav-item ">
             <a class="btn text-light" href="fobi.php">Fobi</a>
           </li>
           <li class="nav-item active alert-dark">
-            <a class="btn text-dark" href="travma.php">Travma</a>
+            <a class="btn text-dark" href="tramva.php">Tramva</a>
           </li>
           <li class="nav-item">
             <a class="btn text-light" href="contactform.php">İletişim</a>
