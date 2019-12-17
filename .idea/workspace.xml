@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82cfaec1-e23e-4ea1-a55a-caf86ebbd3ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/include/bodyheader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/travma.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/anasayfa.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/anasayfa.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contactform.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/contactform.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/fobi.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/fobi.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/girisyap.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/girisyap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/kayıtol.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/kayıtol.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/sifremiunuttum.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/sifremiunuttum.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/tramva.php" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +17,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/anasayfa.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
+            <state relative-caret-position="-287">
               <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/contactform.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/include/bodyheader.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="95" lean-forward="true" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#h1#0;n#em#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,7 +172,7 @@
       <workItem from="1576438770670" duration="5000" />
       <workItem from="1576523356818" duration="1727000" />
       <workItem from="1576531863420" duration="1237000" />
-      <workItem from="1576603444182" duration="5389000" />
+      <workItem from="1576603444182" duration="5854000" />
     </task>
     <task id="LOCAL-00001" summary="Bağlantılar eklendi.">
       <created>1576523991639</created>
@@ -170,11 +181,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576523991639</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Birçok hata giderildi. Bağlantılar düzeltildi.">
+      <created>1576609051728</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576609051728</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9169000" />
+    <option name="totallyTimeSpent" value="9634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -228,8 +246,11 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Bağlantılar eklendi." />
-    <option name="LAST_COMMIT_MESSAGE" value="Bağlantılar eklendi." />
+    <MESSAGE value="Birçok hata giderildi. Bağlantılar düzeltildi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Birçok hata giderildi. Bağlantılar düzeltildi." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/views/tramva.php">
@@ -284,13 +305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/contactform.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="159" column="9" lean-forward="true" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/sifremiunuttum.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -326,17 +340,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/include/bodyheader.php">
+    <entry file="file://$PROJECT_DIR$/views/anasayfa.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="-287">
+          <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/anasayfa.php">
+    <entry file="file://$PROJECT_DIR$/views/include/bodyheader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
+        <state relative-caret-position="418">
+          <caret line="19" column="95" lean-forward="true" selection-start-line="19" selection-start-column="95" selection-end-line="19" selection-end-column="95" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#h1#0;n#em#0;n#div#0;n#header#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/contactform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="145" lean-forward="true" selection-start-line="145" selection-end-line="145" />
         </state>
       </provider>
     </entry>
