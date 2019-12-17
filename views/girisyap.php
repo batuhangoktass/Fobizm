@@ -71,7 +71,7 @@
 					</div>
 					<!-- form giriş yap btn-->
 					<div class="container-login100-form-btn">
-						<a href="fobi.php" class="login100-form-btn">Giriş Yap</a>
+						<a href="anasayfa.php" class="login100-form-btn">Giriş Yap</a>
 					</div>
 				</form>
 				<!-- form bitiş-->
@@ -88,7 +88,6 @@
 		   <a href="#" class="mx-5"></a>    
            <a href="https://twitter.com/fobizm1" class="mx-3"><i class="fab fa-twitter"></i></a>
            <a href="https://www.facebook.com/fobizm/?modal=admin_todo_tour" class="mx-3"><i class="fab fa-facebook-f"></i></a>
-           <a href="https://github.com/batuhangoktass/Fobizm.git" class="mx-3"><i class="fab fa-github"></i></a>
 	  </p>
     </div>
   </footer>

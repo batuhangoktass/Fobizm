@@ -1,7 +1,5 @@
-<?php ?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 
 <head>
     <meta charset="utf-8">
@@ -9,8 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Üst Başlık -->
-    <title>Fobizm. - Anasayfa</title>
-    <link rel="icon" type="image/png" href="img/icons/favicon.ico"/>
+    <title>Fobizm. - Travmalar</title>
+
     <!-- Css Bağlantı -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -26,7 +24,7 @@
 <!-- Sayfa başlığı Başlangıç-->
 <div class="container mt-5">
     <div class="row text-center">
-        <h2 style="font-weight: 500;">FOBİLER</h2>
+        <h2 style="font-weight: 500;">TRAVMALAR</h2>
     </div>
 </div>
 <!-- Sayfa başlığı Bitiş-->
@@ -93,7 +91,7 @@
         <h1 class="display-3">&nbsp;Fobilerinizi Bize İletin</h1>
         <p class="lead">Üzerinde form açılmasını  istediğiniz, çözüm aradığınız fobilerinizi sayfamızda görmek için bize ulaşın. Fobi ekle butonuna tıklayarak bizlere fobileriniz hakkında bir eposta gönderebilirsiniz.&nbsp;&nbsp;
         </p>
-        <a href="contactform.php" class="btn btn-dark btn-lg">Fobi Ekle</a>
+        <a href="#" class="btn btn-dark btn-lg">Fobi Ekle</a>
     </section>
     <!-- Fobi Ekle Paneli Bitiş -->
 </div>
@@ -111,6 +109,7 @@
     </div>
 </footer>
 <!-- Footer Bitiş-->
+
 <!-- Bootstrap core JavaScript -->
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -118,3 +117,4 @@
 </body>
 
 </html>
+

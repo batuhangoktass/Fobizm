@@ -70,9 +70,9 @@
                   <a class="txt3">Zaten bir hesabınız var mı ?</a>
                   <a href="girisyap.php" class="link">Giriş Yap</a>      
                 </div>
-                <!-- form Kayır ol btn-->
+                <!-- form Kayıt ol btn-->
                 <div class="container-login100-form-btn">
-                    <a href="girisyap.php" class="login100-form-btn">Kayıt Ol </a>
+                    <a href="girisyap.php" class="login100-form-btn">ONAYLA </a>
                 </div>
             </form>
 			<!-- form bitiş--> 
@@ -87,7 +87,6 @@
            <a href="#" class="mx-5"></a>    
            <a href="https://twitter.com/fobizm1" class="mx-3"><i class="fab fa-twitter"></i></a>
            <a href="https://www.facebook.com/fobizm/?modal=admin_todo_tour" class="mx-3"><i class="fab fa-facebook-f"></i></a>
-           <a href="https://github.com/batuhangoktass/Fobizm.git" class="mx-3"><i class="fab fa-github"></i></a>
       </p>
     </div>
   </footer>
