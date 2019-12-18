@@ -30,84 +30,47 @@
 <!-- Sayfa başlığı Bitiş-->
 <!-- Container Başlangıç -->
 <div class="container mt-5">
-    <!-- Fobi Kutuları Başlanıç -->
+    <!-- Travma Kutuları Başlanıç -->
     <div class="row text-center">
-        <!-- Fobi1 -->
+        <!-- Travma1 -->
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="img/Fobiler/örümcek.jpg" alt="" height="200" class="card-img-top">
+                <img src="img/Travmalar/travma1.png" alt="" height="200" class="card-img-top">
                 <div class="card-body">
-                    <h4 class="card-title"> Örümcek Fobisi</h4>
-                    <h4 class="card-title">( Araknofobi )&nbsp;</h4>
+                    <h4 class="card-title"> Travma 1</h4>
+                <!--    <h4 class="card-title">( Araknofobi )&nbsp;</h4> -->
                 </div>
                 <div class="card-footer">
                     <a href="#" class="btn btn-dark">Keşfet&nbsp;</a>
                 </div>
             </div>
         </div>
-        <!-- Fobi2 -->
+        <!-- Travma2 -->
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="card h-100">
-                <img src="img/Fobiler/Karanlık.jpg" alt="" height="200" class="card-img-top">
+                <img src="img/Travmalar/travma2.jpg" alt="" height="200" class="card-img-top">
                 <div class="card-body">
-                    <h4 class="card-title">Karanlık Fobisi</h4>
-                    <h4 class="card-title">( Nyctophdoia )&nbsp;</h4>
+                    <h4 class="card-title">Travma 2</h4>
                 </div>
                 <div class="card-footer">
                     <a href="#" class="btn btn-dark">Keşfet&nbsp;</a>
                 </div>
             </div>
         </div>
-        <!-- Fobi3 -->
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card h-100">
-                <img src="img/Fobiler/yükseklik.jpg" alt="" height="200" class="card-img-top">
-                <div class="card-body">
-                    <h4 class="card-title"> Yükseklik Fobisi</h4>
-                    <h4 class="card-title">( Acrophdoia )</h4>
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-dark">Keşfet&nbsp;</a>
-                </div>
-            </div>
-        </div>
-        <!-- Fobi4 -->
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card h-100">
-                <img src="img/Fobiler/yol.jpg" alt="" height="200" class="card-img-top">
-                <div class="card-body">
-                    <h4 class="card-title"> Yoldan Karşıya Geçme Fobisi</h4>
-                    <h4 class="card-title">( Agirafobi )&nbsp;</h4>
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="btn btn-dark">Keşfet&nbsp;</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Fobi Kutuları Bitiş -->
-    <!-- Fobi Ekle Paneli Başlangıç -->
+    <!-- Travma Kutuları Bitiş -->
+    <!-- Travma Ekle Paneli Başlangıç -->
     <section class="jumbotron my-4">
-        <h1 class="display-3">&nbsp;Fobilerinizi Bize İletin</h1>
-        <p class="lead">Üzerinde form açılmasını  istediğiniz, çözüm aradığınız fobilerinizi sayfamızda görmek için bize ulaşın. Fobi ekle butonuna tıklayarak bizlere fobileriniz hakkında bir eposta gönderebilirsiniz.&nbsp;&nbsp;
+        <h1 class="display-3">&nbsp;Travmalarınızı Bize İletin</h1>
+        <p class="lead">Hayatınızda zincir oluşturmuş , yaşantınızı kısıtladığını düşündüğünüz travmalarınızı bizlere "Travma Ekle" kısmından ulaştırabilirsiniz.&nbsp;
         </p>
-        <a href="#" class="btn btn-dark btn-lg">Fobi Ekle</a>
+        <a href="#" class="btn btn-dark btn-lg">Travma Ekle</a>
     </section>
-    <!-- Fobi Ekle Paneli Bitiş -->
+    <!-- Travma Ekle Paneli Bitiş -->
 </div>
 <!-- Container Bitiş -->
 
 <!-- Footer -->
-<footer class="py-3 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center text-white">
-            <a> Copyright &copy; EsDrago Company&nbsp;</a>
-            <a href="#" class="mx-5"></a>
-            <a href="https://twitter.com/fobizm1" class="mx-3"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.facebook.com/fobizm/?modal=admin_todo_tour" class="mx-3"><i class="fab fa-facebook-f"></i></a>
-        </p>
-    </div>
-</footer>
+    <?php include "include/footer.php" ?>
 <!-- Footer Bitiş-->
 
 <!-- Bootstrap core JavaScript -->

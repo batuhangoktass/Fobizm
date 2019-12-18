@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Fobizm. - İletişimForm</title>
+    <title>Fobizm. - İletişimFormu</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -34,9 +34,9 @@
         <form class="contact100-form validate-form">
             <span class="contact100-form-title">Bize Ulaşın</span>
 
-            <div class="wrap-input100 validate-input bg1" data-validate="Lütfen isminizi giriniz">
+            <div class="wrap-input100 validate-input bg1" data-validate="Lütfen bir isim giriniz">
                 <span class="label-input100">İSİM *</span>
-                <input class="input100" type="text" name="name" placeholder="İsminiz">
+                <input class="input100" type="text" name="name" placeholder="Size hitap etmemizi istediğiniz isim">
             </div>
 
             <div class="wrap-input100 validate-input bg1" data-validate = "Lütfen geçerli bir eposta adresi giriniz (@)">
@@ -148,16 +148,7 @@
 </script>
 
 <!-- Footer -->
-<footer class="py-3 bg-dark">
-    <div class="container">
-        <p class="m-0 text-center text-white">
-            <a> Copyright &copy; EsDrago Company&nbsp;</a>
-            <a href="#" class="mx-5"></a>
-            <a href="https://twitter.com/fobizm1" class="mx-3"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.facebook.com/fobizm/?modal=admin_todo_tour" class="mx-3"><i class="fab fa-facebook-f"></i></a>
-        </p>
-    </div>
-</footer>
+<?php include "include/footer.php" ?>
 <!-- Footer Bitiş-->
 </body>
 </html>
