@@ -31,11 +31,16 @@
 </div>
 <!-- Sayfa başlığı Bitiş-->
 <!-- Container Başlangıç -->
-<div class="container mt-5">
+<div class="container mt-4" style="min-height: 98vh">
 
 
     <!-- TABLOLARI DİV leri BURAYA EKLE -->
-    <div class="container">
+    <div>
+        <p style="font-size: 20px">
+            Yoldan karşıya geçen insanları izlerken içime sürekli kötü hisler doğuyor. Daha önceden arkadaşlarım yardımıyla yoldan karşıya geçmeye çalıştığımda
+            ne yapacağımı şaşırıp direkt olarak bağırarak geri dönmeyi tercih ettim. Kısa mesafe dahi olsa komşumuz olan bir taksiciyi çağırmam gerekiyor. Her
+            ne kadar indirim yapsa da öğrenci olduğumdan dolayı maddi sorun yaşayabiliyorum. Yaya olarak da gezebilmek ve istediğim yere gidebilmek istiyorum.
+        </p>
 
     </div>
 </div>

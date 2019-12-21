@@ -31,14 +31,15 @@
 </div>
 <!-- Sayfa başlığı Bitiş-->
 <!-- Container Başlangıç -->
-<div class="container mt-4">
+<div class="container mt-4" style="min-height: 98vh">
 
 
     <!-- TABLOLARI DİV leri BURAYA EKLE -->
-    <div>
-        <a style="font-size: 20px">Karanlık gizemli bir dünya. İçinde birçok bilinmeyeni barındırıyor. İnsanın bilinmeyenden korkması, ışığın yoksunluğundan yani karanlıktan korkmasına neden oluyor. Bizi asıl korkutan karanlık değil, kontrol edemediğimiz şeyler. Kontrol edemediğimiz şeylerden duyduğumuz korku, gelebilecek tehlikelere karşı bizi tetikte tutuyor. Karanlık korkusunun nedeni çocuklukta yaşadığımız zihinsel ve duygusal bir travma olabilir elbette.
-            Karanlık korkmamızın asıl nedeni hayatta kalma içgüdüsüdür.
-        </a>
+    <div class>
+        <p style="font-size: 20px">Kendimi bildim bileli karanlıktan korkuyorum. Sinemada kendimi oldukça huzursuz ve tehlikede hissediyorum.
+            Gece uyurken de gece lambası yerine odamın kendi ışığını tercih ediyorum , bu da uyumamı zorlaştırıp her günümü mahvediyor. Ne arkadaşlarımla sinemaya gidebiliyorum
+            ne de rahat uyuyabiliyorum.
+        </p>
 
     </div>
 

@@ -31,24 +31,27 @@
 </div>
 <!-- Sayfa başlığı Bitiş-->
 <!-- Container Başlangıç -->
-<div class="container mt-5">
+<div class="container mt-4" style="min-height: 98vh">
 
 
     <!-- TABLOLARI DİV leri BURAYA EKLE -->
-    <div class="container">
+    <div class>
+        <p style="font-size: 20px">3.Katın balkonundan bile aşağıya bakamıyorum. Erzurum'da ailemle beraber yaşıyorum. 2 haftada 1 İstanbul'a gitmem gerekiyor.
+            Ve her defasında otobüs yolculuğunu seçmek zorunda kalıyorum. Bu da 2 saatte gidebileceğim yolu yaklaşık 17 saate çıkartıyor.
+            Yollarda geçen bunca zamanım beni oldukça rahatsız etmeye başladı. Ne yapabilirim bu korkuyu yenebilmek için ?
+        </p>
 
     </div>
-</div>
 
     <!-- Container Bitiş -->
+</div>
+<!-- Footer -->
+<?php include "include/footer.php" ?>
+<!-- Footer Bitiş-->
 
-    <!-- Footer -->
-    <?php include "include/footer.php" ?>
-    <!-- Footer Bitiş-->
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
