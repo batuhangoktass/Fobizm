@@ -31,12 +31,16 @@
 </div>
 <!-- Sayfa başlığı Bitiş-->
 <!-- Container Başlangıç -->
-<div class="container mt-5" style="min-height: 100%">
+<div class="container mt-4" style="min-height: 98vh">
 
 
     <!-- TABLOLARI DİV leri BURAYA EKLE -->
-    <div class="container">
-
+    <div>
+        <p style="font-size: 20px">
+            Ablam kocası vefat ettiğinden beri sürekli olarak ellerini yıkayıp duruyor. Elleri yıkanmaktan tahriş olmuş durumda ve psikoloğa ya da
+            psikiyatriye gitmeyi reddediyor. Eşi vefat edesiye kadar böyle bir sorunu yoktu ne yapacağımı bilmiyorum. Eşinin vefatının kendisinde bir travma yarattığını
+            düşünüyorum.
+        </p>
     </div>
 </div>
 

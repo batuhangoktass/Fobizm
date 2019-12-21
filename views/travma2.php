@@ -31,12 +31,16 @@
 </div>
 <!-- Sayfa başlığı Bitiş-->
 <!-- Container Başlangıç -->
-<div class="container mt-5">
+<div class="container mt-4" style="min-height: 98vh">
 
 
     <!-- TABLOLARI DİV leri BURAYA EKLE -->
-    <div class="container">
-
+    <div>
+        <p style="font-size: 20px">
+            Babam küçük yaşımdan beri benimle aşırı ilgileniyor. Babamı her şeyden ve herkesten çok seviyorum. Birçok erkek arkadaşım oldu ancak hiçbirinde aradığım ilgiyi göremedim.
+            Bu yüzden hiçbir ilişkimde mutlu olamıyorum. Benimle kimse babam kadar ilgilenmedi ve ilgilenemez de. Her ne kadar babamın bana olan ilgisi hoşuma gidiyor olsa da tüm ilişkilerimde
+            karşı taraftan aşırı ilgi beklememe neden oluyor. Bana babamın gösterdiği bu ilginin travmatik bir etkisi olduğunu düşünüyorum. Ne yapmalıyım sizce ?
+        </p>
     </div>
 </div>
 
