@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Üst Başlık -->
-    <title>Fobizm. -Anasayfa</title>
+    <title>Fobizm. - Anasayfa</title>
     <link rel="icon" type="image/png" href="img/icons/favicon.ico"/>
     <!-- Css Bağlantı -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
 </div>
 <!-- Sayfa başlığı Bitiş-->
 <!-- Container Başlangıç -->
-<div class="container mt-5">
+<div class="container mt-5" style="min-height: 98vh">
 
 
     <!-- TABLOLARI DİV leri BURAYA EKLE -->
@@ -56,7 +56,9 @@
             karanlık bir yoldan geçmekten de. Ancak bazı korkular vardır ki ; sosyal hayatımızı , ilişkilerimizi , başarımızı , benliğimizi vs. oldukça kötü etkilemektedir.
             Korkularımızdan kaçarak hayatımızın gidişatını düzeltemeyiz. Fobizm , korkularımızla yüzleşip savaşmamız gerektiğini düşünen bir hayat felsefesidir.<br><br><b>ZİNCİRLERİNİZİ KIRMANIZ DİLEĞİYLE !</b>
         </p>
+        <br><br><br><br>
     </div>
+</div>
     <!-- Container Bitiş -->
 
     <!-- Footer -->

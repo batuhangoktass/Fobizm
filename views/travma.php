@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
@@ -37,11 +37,11 @@
             <div class="card h-100">
                 <img src="img/Travmalar/travma1.png" alt="" height="200" class="card-img-top">
                 <div class="card-body">
-                    <h4 class="card-title"> Travma 1</h4>
+                    <h4 class="card-title"> Travmatik Yas</h4>
                 <!--    <h4 class="card-title">( Araknofobi )&nbsp;</h4> -->
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="btn btn-dark">Keşfet&nbsp;</a>
+                    <a href="travma1.php" class="btn btn-dark">Keşfet&nbsp;</a>
                 </div>
             </div>
         </div>
@@ -50,10 +50,10 @@
             <div class="card h-100">
                 <img src="img/Travmalar/travma2.jpg" alt="" height="200" class="card-img-top">
                 <div class="card-body">
-                    <h4 class="card-title">Travma 2</h4>
+                    <h4 class="card-title">İlgi Bağımlılığı</h4>
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="btn btn-dark">Keşfet&nbsp;</a>
+                    <a href="travma2.php" class="btn btn-dark">Keşfet&nbsp;</a>
                 </div>
             </div>
         </div>
@@ -63,9 +63,10 @@
         <h1 class="display-3">&nbsp;Travmalarınızı Bize İletin</h1>
         <p class="lead">Hayatınızda zincir oluşturmuş , yaşantınızı kısıtladığını düşündüğünüz travmalarınızı bizlere "Travma Ekle" kısmından ulaştırabilirsiniz.&nbsp;
         </p>
-        <a href="#" class="btn btn-dark btn-lg">Travma Ekle</a>
+        <a href="contactform.php" class="btn btn-dark btn-lg">Travma Ekle</a>
     </section>
     <!-- Travma Ekle Paneli Bitiş -->
+</div>
 </div>
 <!-- Container Bitiş -->
 

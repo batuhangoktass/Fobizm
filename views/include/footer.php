@@ -1,4 +1,12 @@
-<footer class="py-3 bg-dark">
+<footer class="py-3 bg-dark" style="
+  /*smin-height: 100%;
+  height: auto !important;
+  height: 100%;*/
+  /* Negative indent footer by its height */
+  margin: 0 auto -70px;
+  /* Pad bottom by footer height */
+  padding: 0 0 70px;
+">
     <div class="container">
         <p class="m-0 text-center text-white">
             <a> Copyright &copy; EsDrago Company&nbsp;</a>

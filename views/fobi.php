@@ -56,7 +56,7 @@
                     <h4 class="card-title">( Acrophdoia )</h4>
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="btn btn-dark">Keşfet&nbsp;</a>
+                    <a href="fobi2.php" class="btn btn-dark">Keşfet&nbsp;</a>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@
                     <h4 class="card-title">( Agirafobi )&nbsp;</h4>
                 </div>
                 <div class="card-footer">
-                    <a href="#" class="btn btn-dark">Keşfet&nbsp;</a>
+                    <a href="fobi3.php" class="btn btn-dark">Keşfet&nbsp;</a>
                 </div>
             </div>
         </div>
