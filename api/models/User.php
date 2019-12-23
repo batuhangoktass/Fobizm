@@ -1,5 +1,6 @@
 <?php
 
+include "./BaseModel.php";
 
 class User
 {
@@ -7,6 +8,23 @@ class User
     private string $username;
     private string $password;
     private string $mail;
+    /**
+     * @var BaseModel
+     */
+    private static $baseModel = null;
+
+    /**
+     * @return BaseModel
+     */
+    public static function getBaseModel(): BaseModel
+    {
+        if (is_null(self::$baseModel))
+        {
+            self::$baseModel = new BaseModel("User","users");
+        }
+        return self::$baseModel;
+    }
+
 
 
     /**
@@ -28,7 +46,7 @@ class User
     /**
      * @param mixed $user_id
      */
-    public function setUserİd($user_id): void
+    public function setUserId($user_id): void
     {
         $this->user_id = $user_id;
     }
@@ -76,27 +94,29 @@ class User
 
     public static function getUser(int $id) : ?User
     {
-        try {
-            $dbConnect = new PDO("mysql:host=localhost:3308;dbname=fobizm;charset=utf8", "root", "");
-
-        } catch ( PDOException $e ){
-            print $e->getMessage();
+        $arrs = self::getBaseModel()->getModels(["user_id" => $id]);
+        if (sizeof($arrs) > 0){
+            return $arrs[0];
         }
-        $query = $dbConnect->prepare("SELECT * FROM users WHERE user_id = :id;");
-        if ($query->execute(array(":id"=>$id))){
-            $allData = $query->fetchAll(PDO::FETCH_CLASS, "User");
-            if ($allData[0]){
-                return $allData[0];
-            }
-        }
-        else {
-            echo  json_encode($query->errorInfo());
+        else{
             return null;
         }
-
+    }
+    public static function getAllUsers(){
+        return self::getBaseModel()->getModels();
     }
 }
-
+/*
 $u = User::getUser(1);
 
 echo !is_null($u) ? $u->getUserId() : "Null geliyor babacım";
+
+
+$kisiler = User::getAllUsers();
+foreach ($kisiler as $kisi){
+    if ($kisi instanceof  User){
+        $usernm = $kisi->getUsername();
+        echo "$usernm";
+    }
+
+}*/
