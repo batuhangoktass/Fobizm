@@ -4,7 +4,7 @@
 class DatabaseConnection
 {
     private static ?PDO $instance = null;
-    private static string $connection1 = "mysql:host=localhost:3308;dbname=fobizm;charset=utf8";
+    private static string $connection1 = "mysql:host=localhost;dbname=fobizm;charset=utf8";
 
     private static string $connection2 = "mysql:host=localhost:3308;dbname=fobizm;charset=utf8";
 
