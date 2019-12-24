@@ -1,4 +1,11 @@
-<?php ?>
+<?php
+require_once ("../api/models/User.php");
+if (User::userSigned()){
+    header("location: anasayfa.php");
+
+}
+
+?>
 <!DOCTYPE html>
 <html lang="tr">
 
@@ -42,27 +49,27 @@
                 <!-- form kullanıcı adı giriş-->
                 <span class="txt1 p-b-11">Kullanıcı Adı</span>
                 <div class="wrap-input100 validate-input m-b-36" data-validate ="Kullanıcı adınızı Giriniz">
-                    <input class="input100" type="name" name="username" >
+                    <input class="input100" type="name" name="username" id="username" >
                     <span class="focus-input100"></span>
                 </div>
                 <!-- form email giriş-->
                 <span class="txt1 p-b-11">E-mail</span>
                 <div class="wrap-input100 validate-input m-b-36" data-validate = "E-postanızı Giriniz">
-                    <input class="input100" type="email" name="email" >
+                    <input class="input100" type="email" name="email" id="mail" >
                     <span class="focus-input100"></span>
                 </div>
                 <!-- form şifre giriş-->
                 <span class="txt1 p-b-11">Şifre</span>
                 <div class="wrap-input100 validate-input m-b-12" data-validate = "Şifrenizi Giriniz">
 					<span class="btn-show-pass"><i class="fa fa-eye"></i></span>
-                    <input class="input100" type="password" name="pass" >
+                    <input class="input100" type="password" name="pass" id="password-1">
                     <span class="focus-input100"></span>
                 </div>
                 <!-- form şifre tekrar giriş-->
                 <span class="txt1 p-b-11">Şifre Tekrar</span>
                 <div class="wrap-input100 validate-input m-b-12" data-validate = "Tekrar Şifrenizi Giriniz">
 					<span class="btn-show-pass"><i class="fa fa-eye"></i></span>
-                    <input class="input100" type="password" name="pass" >
+                    <input class="input100" type="password" name="pass2" id="password-2">
                     <span class="focus-input100"></span>
                 </div>
                 <!-- form giriş yap link-->
@@ -72,7 +79,7 @@
                 </div>
                 <!-- form Kayıt ol btn-->
                 <div class="container-login100-form-btn">
-                    <a href="girisyap.php" class="login100-form-btn">ONAYLA </a>
+                    <a onclick="uyeol(event)" class="login100-form-btn">ONAYLA </a>
                 </div>
             </form>
 			<!-- form bitiş--> 
@@ -94,6 +101,31 @@
 <script src="vendor/daterangepicker/daterangepicker.js"></script>
 <script src="vendor/countdowntime/countdowntime.js"></script>
 <script src="js/main.js"></script>
+<script src="js/QueryThrower.js"></script>
+<script>
+    uyeol = function(event) {
+        if (document.getElementById("password-1").value == document.getElementById("password-2").value){
+            event.target.style.display = "none";
+            throwQuery("../api/createUser", {
+                username: document.getElementById("username").value,
+                password: document.getElementById("password-1").value,
+                password_repeat: document.getElementById("password-2").value,
+                mail: document.getElementById("mail").value,
+            }, "GET", (data) => {
+                data = JSON.parse(data);
+                if (data.status == false) {
+                    alert(data.message);
+                }
+                location.reload();
+            })
+        }
+        else {
+            alert("Şifreler yanlış");
+            event.target.style.display = "block";
+        }
+
+    }
+</script>
 
 </body>
 </html>

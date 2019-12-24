@@ -142,6 +142,16 @@ class User extends Model
         return isset($_SESSION["signed"]) && $_SESSION["signed"] == true;
     }
 
+    public static  function getSignedUser(){
+        require_once $_SERVER['DOCUMENT_ROOT']."/fobizm/api/InitSession.php";
+        if (!self::userSigned()){
+            return null;
+        }
+        else{
+            return self::getUser($_SESSION["user_id"]);
+        }
+    }
+
     public static function createNewUser(string $username, string $password, string $password2, string $mail)
     {
         if ($password == $password2) {
@@ -164,7 +174,9 @@ class User extends Model
                 "password" => self::encodePassword($password)
             ));
             if (!is_null($users)) {
+                self::login($username,$password);
                 return Utils::messageState(true, "Kullanıcı oluşturuldu");
+
             } else {
                 return Utils::messageState(false, "Bilinmeyen hata");
             }

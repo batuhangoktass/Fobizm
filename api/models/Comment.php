@@ -14,7 +14,7 @@ class Comment extends  Model
     public static function getBaseModel(): BaseModel
     {
         if (is_null(self::$baseModel)) {
-            self::$baseModel = new BaseModel("User", "users");
+            self::$baseModel = new BaseModel("User", "users", );
         }
         return self::$baseModel;
     }

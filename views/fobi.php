@@ -1,4 +1,11 @@
-<?php ?>
+<?php
+require_once ("../api/models/User.php");
+if (!User::userSigned()){
+    header("location: girisyap.php");
+
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -35,20 +42,32 @@
     <!-- Fobi Kutuları Başlanıç -->
     <div class="row text-center">
         <!-- Fobi1 -->
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card h-100">
-                <img src="img/Fobiler/Karanlık.jpg" alt="" height="200" class="card-img-top">
-                <div class="card-body">
-                    <h4 class="card-title">Karanlık Fobisi</h4>
-                    <h4 class="card-title">( Nyctophdoia )&nbsp;</h4>
-                </div>
-                <div class="card-footer">
-                    <a href="fobi1.php" class="btn btn-dark">Keşfet&nbsp;</a>
-                </div>
-            </div>
-        </div>
+
+        <?php
+        include "../api/_getMentalIssues.php";
+        $issues = MentalIssuesHelper::getMentalIssues(1);
+        foreach ($issues as $issue){
+            $issue_id = $issue['mental_issue_id'];
+            $issue_image = $issue['thumb_img_url'];
+            $issue_title = $issue['issue_name'];
+            echo
+            "
+                <div class=\"col-lg-3 col-md-6 mb-4\">
+                    <div class=\"card h-100\">
+                    <img src=\" $issue_image \" alt=\"\" height=\"200\" class=\"card-img-top\">
+                    <div class=\"card-body\">
+                        <h4 class=\"card-title\"> $issue_title </h4>
+                <!--    <h4 class=\"card-title\">( Araknofobi )&nbsp;</h4> -->
+                    </div>
+                    <div class=\"card-footer\">
+                        <a href=\"mental_issue_content.php?issue_id=$issue_id\" class=\"btn btn-dark\">Keşfet&nbsp;</a>
+                    </div>
+                </div></div>";
+        }
+
+        ?>
         <!-- Fobi2 -->
-        <div class="col-lg-3 col-md-6 mb-4">
+<!--        <div class="col-lg-3 col-md-6 mb-4">
             <div class="card h-100">
                 <img src="img/Fobiler/yükseklik.jpg" alt="" height="200" class="card-img-top">
                 <div class="card-body">
@@ -59,9 +78,9 @@
                     <a href="fobi2.php" class="btn btn-dark">Keşfet&nbsp;</a>
                 </div>
             </div>
-        </div>
+        </div>-->
         <!-- Fobi3 -->
-        <div class="col-lg-3 col-md-6 mb-4">
+<!--        <div class="col-lg-3 col-md-6 mb-4">
             <div class="card h-100">
                 <img src="img/Fobiler/yol.jpg" alt="" height="200" class="card-img-top">
                 <div class="card-body">
@@ -72,7 +91,7 @@
                     <a href="fobi3.php" class="btn btn-dark">Keşfet&nbsp;</a>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
     <!-- Fobi Kutuları Bitiş -->
     <!-- Fobi Ekle Paneli Başlangıç -->

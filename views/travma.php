@@ -1,3 +1,14 @@
+
+<?php
+require_once ("../api/models/User.php");
+if (!User::userSigned()){
+    header("location: girisyap.php");
+
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,21 +43,34 @@
 <div class="container mt-5">
     <!-- Travma Kutuları Başlanıç -->
     <div class="row text-center">
-        <!-- Travma1 -->
-        <div class="col-lg-3 col-md-6 mb-4">
-            <div class="card h-100">
-                <img src="img/Travmalar/travma1.png" alt="" height="200" class="card-img-top">
-                <div class="card-body">
-                    <h4 class="card-title"> Travmatik Yas</h4>
-                <!--    <h4 class="card-title">( Araknofobi )&nbsp;</h4> -->
-                </div>
-                <div class="card-footer">
-                    <a href="travma1.php" class="btn btn-dark">Keşfet&nbsp;</a>
-                </div>
-            </div>
+        <!-- Travma Genel -->
+
+            <?php
+            include "../api/_getMentalIssues.php";
+            $issues = MentalIssuesHelper::getMentalIssues(2);
+            foreach ($issues as $issue){
+                $issue_id = $issue['mental_issue_id'];
+                $issue_image = $issue['thumb_img_url'];
+                $issue_title = $issue['issue_name'];
+                echo
+               "
+                <div class=\"col-lg-3 col-md-6 mb-4\">
+                    <div class=\"card h-100\">
+                    <img src=\" $issue_image \" alt=\"\" height=\"200\" class=\"card-img-top\">
+                    <div class=\"card-body\">
+                        <h4 class=\"card-title\"> $issue_title </h4>
+                <!--    <h4 class=\"card-title\">( Araknofobi )&nbsp;</h4> -->
+                    </div>
+                    <div class=\"card-footer\">
+                        <a href=\"mental_issue_content.php?issue_id=$issue_id\" class=\"btn btn-dark\">Keşfet&nbsp;</a>
+                    </div>
+                </div></div>";
+            }
+
+            ?>
         </div>
         <!-- Travma2 -->
-        <div class="col-lg-3 col-md-6 mb-4">
+        <!--<div class="col-lg-3 col-md-6 mb-4">
             <div class="card h-100">
                 <img src="img/Travmalar/travma2.jpg" alt="" height="200" class="card-img-top">
                 <div class="card-body">
@@ -56,7 +80,7 @@
                     <a href="travma2.php" class="btn btn-dark">Keşfet&nbsp;</a>
                 </div>
             </div>
-        </div>
+        </div> -->
     <!-- Travma Kutuları Bitiş -->
     <!-- Travma Ekle Paneli Başlangıç -->
     <section class="jumbotron my-4">
