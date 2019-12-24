@@ -1,3 +1,4 @@
 <?php
 include "models/User.php";
-echo json_encode(User::logout());
+json_encode(User::logout());
+header("location: ../views/");

@@ -19,6 +19,10 @@
                 <li class="nav-item">
                     <a class="btn <?= basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']) == 'contactform.php' ? 'text-dark alert-light' : 'text-light' ?>" href="contactform.php">İletişim</a>
                 </li>
+                <li class="nav-item">
+                    <a class="btn <?= basename($_SERVER['REQUEST_URI'], '?' . $_SERVER['QUERY_STRING']) == 'contactform.php' ? 'text-dark alert-light' : 'text-light' ?>" href="../api/logout.php">Çıkış yap</a>
+                </li>
+
             </ul>
         </div>
     </div>

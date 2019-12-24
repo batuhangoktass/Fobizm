@@ -1,5 +1,5 @@
 <?php
-require $_SERVER['DOCUMENT_ROOT'] . "/fobizm/api/DatabaseConnection.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/fobizm/api/DatabaseConnection.php";
 
 abstract class Model
 {

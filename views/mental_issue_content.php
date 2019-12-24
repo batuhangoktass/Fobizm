@@ -1,8 +1,16 @@
 <?php
+include_once "../api/DatabaseConnection.php";
+$db = DatabaseConnection::getInstance();
 require_once("../api/models/User.php");
 if (!User::userSigned()) {
     header("location: girisyap.php");
 
+}else {
+    $q = $db->prepare("SELECT * FROM mental_issue where  mental_issue_id = :mental;");
+    if ($q->execute(array(":mental" => $_GET["issue_id"]))) {
+        $currentIssue = $q->fetch(PDO::FETCH_ASSOC);
+
+    }
 }
 
 ?>
@@ -32,7 +40,7 @@ if (!User::userSigned()) {
 <!-- Sayfa başlığı Başlangıç-->
 <div class="container mt-5">
     <div class="row text-center">
-        <h4 style="...">Travmatik Yas</h4>
+        <h4 style="..."><?php echo $currentIssue["issue_name"] ?></h4>
 
     </div>
 </div>
@@ -40,11 +48,12 @@ if (!User::userSigned()) {
 <!-- Container Başlangıç -->
 <div class="container mt-4" style="min-height: 98vh">
 
-
+    <div style="font-size: 20px;">
+      <?php  echo $currentIssue["description"]  ?>
+    </div>
     <?php
-    require_once "../api/DatabaseConnection.php";
-    require_once "../api/models/User.php";
-    $db = DatabaseConnection::getInstance();
+
+
     $signedUser = User::getSignedUser();
     if (!empty($_GET["issue_id"])) {
         $q = $db->prepare("SELECT * FROM comment where  mental_issue_id = :mental;");
@@ -54,11 +63,11 @@ if (!User::userSigned()) {
                 $userNm = User::getUser($item["user_id"])->getUsername();
                 $comment = $item["comment_text"];
                 echo "<div>
-                        <p style=\"font-size: 20px\">
+                        <p style=\"font-size: 16px; margin-top: 10px\">
                         <b>@$userNm</b>
-            $comment
+                            $comment
                 </p>
-    </div>";
+            </div>";
             }
         }
     }
@@ -74,9 +83,11 @@ if (!User::userSigned()) {
                 düşünüyorum.
             </p>
         </div>-->
-    <div>Sorununuzu girin</div>
-    <input type="text" id="comment">
-    <button onclick="addComment(event)">Gönder</button>
+<div style="margin-top: 20px;">
+    <div>Yorum yaz</div>
+    <input class="form-control"  type="text" id="comment" style="width: 100%">
+    <button class="class="btn btn-primary" onclick="addComment(event)">Gönder</button>
+</div>
 </div>
 
 <!-- Container Bitiş -->
